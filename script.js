@@ -30,5 +30,3 @@ const removeTask = event => {
 const changeTaskState = event => {
     event.target.classList.toggle('done');
 };
-
-setDate();
